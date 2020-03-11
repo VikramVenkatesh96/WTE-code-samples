@@ -22,6 +22,7 @@ public:
 	void RunTool(FString fileName);
 
 public:	
+	//Exposing Merge settings for user input
 	UPROPERTY(editanywhere, meta = (ShowOnlyInnerProperties), Category = MergeSettings)
 	FMeshMergingSettings Settings;
 };
